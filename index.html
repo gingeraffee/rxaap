@@ -12,15 +12,22 @@
 <header>
   <div class="wrap">
     <div class="brand">
-      <div>
-        <h1>ERC Safety Hub</h1>
-        <small>Safety tips • Trainings • Announcements • Newsletters</small>
+      <div class="brand-left">
+        <img class="logo" src="assets/logo.png" alt="ERC Logo">
+        <div>
+          <h1>Emergency Response Committee (ERC)</h1>
+          <small>Photos • Shifts • Safety Zones • Reporting • Safety Content</small>
+        </div>
       </div>
       <div class="meta">Associated Pharmacies • ERC</div>
     </div>
 
     <nav>
       <a href="./">Home</a>
+      <a href="#oic">OIC Chain</a>
+      <a href="#zones">Safety Zones</a>
+      <a href="#members">Members & Shifts</a>
+      <a href="#reporting">Reporting</a>
       <a href="safety/">Safety</a>
       <a href="announcements/">Announcements</a>
       <a href="newsletters/">Newsletters</a>
@@ -29,47 +36,147 @@
 </header>
 
 <main class="wrap">
-  <div class="card">
-    <h2>Quick Purpose</h2>
+
+  <section class="card">
+    <h2>Purpose</h2>
     <p>
-      This site provides ERC-related safety guidance, training references, announcements, and newsletters.
-      Use this as the single “source of truth” for leadership and staff-facing safety content.
+      The ERC supports employee safety by coordinating emergency response readiness, safety trainings,
+      policy awareness, and hazard reporting. During emergency events, follow ERC direction and move to
+      assigned safety zones when instructed.
     </p>
-  </div>
+  </section>
 
-  <div style="height: 14px;"></div>
+  <section id="oic" class="card">
+    <h2>Officer-in-Charge (OIC) Order</h2>
+    <p class="meta">All emergency calls about when to report to safety zones should be made by the ERC OIC.</p>
+    <ol class="list">
+      <li>David Johnson</li>
+      <li>Nicole Thornton</li>
+      <li>Trevor Bowen</li>
+      <li>Sydney Strickland</li>
+      <li>Desiree Moore</li>
+      <li>Susan Smart</li>
+      <li>Brandy Hooper</li>
+      <li>George Euson</li>
+    </ol>
+  </section>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Safety Tips</h3>
-      <p>Short, practical reminders employees can actually use.</p>
-      <a class="btn" href="safety/tips.html">View Tips</a>
+  <section id="zones" class="card">
+    <h2>Safety Zone Assignments</h2>
+    <p class="meta">If you are unsure of your assigned safety zone, reach out to any ERC member.</p>
+
+    <div class="grid">
+      <div class="card mini">
+        <h3>Safety Zone 1</h3>
+        <p class="muted">Trevor Bowen</p>
+      </div>
+      <div class="card mini">
+        <h3>Safety Zone 2</h3>
+        <p class="muted">Desiree Moore</p>
+      </div>
+      <div class="card mini">
+        <h3>Safety Zone 3</h3>
+        <p class="muted">Sydney Strickland</p>
+      </div>
+      <div class="card mini">
+        <h3>Safety Zone 4</h3>
+        <p class="muted">Susan Smart</p>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-      <h3>Trainings</h3>
-      <p>Reference materials, brief trainings, and drill guidance.</p>
-      <a class="btn" href="safety/trainings.html">View Trainings</a>
-    </div>
+  <section id="members" class="card">
+    <h2>ERC Members & Shifts</h2>
+    <p class="meta">There is always at least one ERC member in the building due to overlapping shifts.</p>
 
-    <div class="card">
-      <h3>Announcements</h3>
-      <p>ERC updates, severe weather reminders, and time-sensitive notices.</p>
-      <a class="btn" href="announcements/">Go to Announcements</a>
-    </div>
+    <div class="grid members">
 
-    <div class="card">
-      <h3>Newsletters</h3>
-      <p>Monthly/quarterly newsletters with PDFs or web versions.</p>
-      <a class="btn" href="newsletters/">Open Newsletters</a>
-    </div>
-  </div>
+      <div class="member">
+        <img src="assets/members/david.jpg" alt="David Johnson">
+        <div>
+          <h3>David Johnson</h3>
+          <p class="muted">Shift: 07:00–16:00</p>
+        </div>
+      </div>
 
-  <footer>
-    <div class="wrap" style="padding:0;">
-      <div>For questions, contact an ERC member or the ERC Officer-in-Charge chain of command.</div>
+      <div class="member">
+        <img src="assets/members/nicole.jpg" alt="Nicole Thornton">
+        <div>
+          <h3>Nicole Thornton</h3>
+          <p class="muted">Shift: 08:00–17:00</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/trevor.jpg" alt="Trevor Bowen">
+        <div>
+          <h3>Trevor Bowen</h3>
+          <p class="muted">Shift: 10:00–19:00</p>
+          <p class="muted">Safety Zone: 1</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/sydney.jpg" alt="Sydney Strickland">
+        <div>
+          <h3>Sydney Strickland</h3>
+          <p class="muted">Shift: 12:00–21:00</p>
+          <p class="muted">Safety Zone: 3</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/desiree.jpg" alt="Desiree Moore">
+        <div>
+          <h3>Desiree Moore</h3>
+          <p class="muted">Shift: 08:00–17:00</p>
+          <p class="muted">Safety Zone: 2</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/susan.jpg" alt="Susan Smart">
+        <div>
+          <h3>Susan Smart</h3>
+          <p class="muted">Shift: 08:00–16:30</p>
+          <p class="muted">Safety Zone: 4</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/brandy.jpg" alt="Brandy Hooper">
+        <div>
+          <h3>Brandy Hooper</h3>
+          <p class="muted">Offsite</p>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="assets/members/george.jpg" alt="George Euson">
+        <div>
+          <h3>George Euson</h3>
+          <p class="muted">Offsite</p>
+        </div>
+      </div>
+
     </div>
+  </section>
+
+  <section id="reporting" class="card">
+    <h2>Reporting Guidance</h2>
+    <p><strong>See something? Say something.</strong> Report safety concerns immediately.</p>
+    <ul class="list">
+      <li><strong>In-person:</strong> Notify an ERC member or the OIC.</li>
+      <li><strong>Urgent hazards:</strong> Report immediately—do not wait.</li>
+      <li><strong>What to report:</strong> unsafe conditions, hazards, near-misses, suspicious activity, or emergency concerns.</li>
+      <li><strong>What happens next:</strong> ERC evaluates, escalates as needed, and documents follow-up actions.</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <div class="meta">ERC Safety Hub • GitHub Pages</div>
   </footer>
+
 </main>
 
 </body>
