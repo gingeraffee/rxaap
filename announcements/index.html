@@ -12,11 +12,14 @@
 <header>
   <div class="wrap">
     <div class="brand">
-      <div>
-        <h1>Announcements</h1>
-        <small>Updates, reminders, and time-sensitive notices</small>
+      <div class="brand-left">
+        <img class="logo" src="assets/logo.png" alt="ERC Logo">
+        <div>
+          <h1>Announcements</h1>
+          <small>Updates, reminders, and time-sensitive notices</small>
+        </div>
       </div>
-      <div class="meta">ERC</div>
+      <div class="meta">ERC Safety Hub</div>
     </div>
 
     <nav>
@@ -29,27 +32,36 @@
 </header>
 
 <main class="wrap">
-  <div class="card">
-    <h2>Latest Posts</h2>
-    <p>To add a new announcement: create a new HTML file in <code>announcements/posts/</code> and link it here.</p>
-  </div>
 
-  <div style="height: 14px;"></div>
+  <section class="card">
+    <h2>Latest</h2>
+    <p class="muted">
+      New posts live in <code>announcements/posts/</code>. Add a link card here for each new announcement.
+    </p>
+  </section>
 
-  <div class="grid">
+  <section class="grid">
     <div class="card">
       <h3>ERC Update: Drill + Communication Improvements</h3>
       <p class="meta">January 15, 2026</p>
-      <p>Summary of actions coming out of the ERC meeting: drill planning, radios, roll call, maps.</p>
-      <a class="btn" href="announcements/posts/2026-01-15-erc-update.html">Read Post</a>
+      <p class="muted">Summary of next steps from the ERC meeting: drill planning, radios, roll call, maps.</p>
+      <p><a class="btn" href="announcements/posts/2026-01-15-erc-update.html">Read →</a></p>
     </div>
-  </div>
+  </section>
 
-  <footer class="wrap">
-    <div class="wrap" style="padding:0;">
-      <div class="meta">Keep announcements short and link to detailed procedures/training when needed.</div>
-    </div>
+  <section class="card">
+    <h2>Add a new announcement (template)</h2>
+    <ol class="list">
+      <li>Create a new file in <code>announcements/posts/</code> named like <code>2026-02-01-title.html</code>.</li>
+      <li>Copy the post template (below) and edit the title/date/content.</li>
+      <li>Add a new “card” link above in the Latest grid.</li>
+    </ol>
+  </section>
+
+  <footer class="footer">
+    <div class="meta">ERC Safety Hub • Announcements</div>
   </footer>
+
 </main>
 
 </body>
