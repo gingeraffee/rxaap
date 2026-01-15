@@ -12,11 +12,14 @@
 <header>
   <div class="wrap">
     <div class="brand">
-      <div>
-        <h1>Safety Tips</h1>
-        <small>Quick reminders for everyday readiness</small>
+      <div class="brand-left">
+        <img class="logo" src="assets/logo.png" alt="ERC Logo">
+        <div>
+          <h1>Safety Tips</h1>
+          <small>Short, practical reminders</small>
+        </div>
       </div>
-      <div class="meta">Updated as needed</div>
+      <div class="meta">ERC Safety Hub</div>
     </div>
 
     <nav>
@@ -29,38 +32,55 @@
 </header>
 
 <main class="wrap">
-  <div class="card">
-    <h2>Tips Library</h2>
-    <p>Add new tips as small “cards.” Keep them short enough to read in 20 seconds.</p>
-  </div>
 
-  <div style="height: 14px;"></div>
+  <section class="card">
+    <h2>How to use this page</h2>
+    <p class="muted">
+      Add new tips as cards below. Keep them short, specific, and action-focused.
+      (Example: “Do X” beats “Be careful.”)
+    </p>
+  </section>
 
-  <div class="grid">
+  <section class="grid">
     <div class="card">
-      <h3>Severe Weather: Move Fast</h3>
-      <p>When directed, go to your assigned safety zone immediately—don’t stop to gather items.</p>
-      <div class="meta">Category: Severe Weather</div>
-    </div>
-
-    <div class="card">
-      <h3>Accountability Matters</h3>
-      <p>During emergencies, managers should be ready to confirm their team members for roll call.</p>
-      <div class="meta">Category: Accountability</div>
+      <h3>Severe Weather: Move Immediately</h3>
+      <p class="muted">When directed, go to your assigned safety zone right away. Don’t stop to gather items.</p>
+      <p class="meta">Category: Severe Weather</p>
     </div>
 
     <div class="card">
-      <h3>Communication Backup</h3>
-      <p>If radios fail, follow the posted fallback procedure and listen for ERC direction.</p>
-      <div class="meta">Category: Communication</div>
+      <h3>Roll Call Readiness</h3>
+      <p class="muted">Managers should be ready to account for their teams during emergency roll call.</p>
+      <p class="meta">Category: Accountability</p>
     </div>
-  </div>
 
-  <footer class="wrap">
-    <div class="wrap" style="padding:0;">
-      <div class="meta">Tip idea: Add one new card per week or per month to keep it fresh.</div>
+    <div class="card">
+      <h3>Radio Check</h3>
+      <p class="muted">If radios are in use, confirm you can receive messages at the start of your shift.</p>
+      <p class="meta">Category: Communication</p>
     </div>
+
+    <div class="card">
+      <h3>Know Your Zone</h3>
+      <p class="muted">If you don’t know your assigned safety zone, ask any ERC member.</p>
+      <p class="meta">Category: Preparedness</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Add a new tip (template)</h2>
+    <p class="muted">Copy/paste this inside the grid section:</p>
+<pre class="code"><code>&lt;div class="card"&gt;
+  &lt;h3&gt;Tip Title&lt;/h3&gt;
+  &lt;p class="muted"&gt;One-sentence action-focused tip.&lt;/p&gt;
+  &lt;p class="meta"&gt;Category: ____&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+  </section>
+
+  <footer class="footer">
+    <div class="meta"><a href="safety/" class="link">← Back to Safety</a></div>
   </footer>
+
 </main>
 
 </body>
