@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- HEADER WITH LOGO + TITLE -->
-    <div class="site-header">
+    <header class="site-header">
         <div class="header-inner">
             <img src="assets/logo.png" alt="Company logo" class="logo">
             <div class="header-text">
@@ -16,16 +16,18 @@
                 <p>Safety trainings • Safety policy development • Report concerns</p>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- NAVIGATION -->
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Primary">
         <div class="nav-inner">
             <ul class="nav-list">
-                <li><a href="./index.html" class="nav-link active">Home</a></li>
-                <li><a href="./newsletters/index.html" class="nav-link">Newsletters</a></li>
+                <li><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
                 <li><a href="./announcements/index.html" class="nav-link">Announcements</a></li>
-                <li><a href="./safety/index.html" class="nav-link">Safety & Tips</a></li>
+                <li><a href="./newsletters/index.html" class="nav-link">Newsletters</a></li>
+                <li><a href="./safety/index.html" class="nav-link">Safety</a></li>
+                <li><a href="./safety/tips.html" class="nav-link">Safety Tips</a></li>
+                <li><a href="./safety/trainings.html" class="nav-link">Safety Trainings</a></li>
             </ul>
         </div>
     </nav>
