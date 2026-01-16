@@ -3,33 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <base href="/rxaap/">
   <title>Safety • ERC Safety Hub</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div class="brand-left">
-        <img class="logo" src="assets/logo.png" alt="ERC Logo">
-        <div>
-          <h1>Safety</h1>
-          <small>Tips • Trainings • Quick references</small>
-        </div>
-      </div>
-      <div class="meta">ERC Safety Hub</div>
+<header class="site-header">
+  <div class="header-inner">
+    <img class="logo" src="../assets/logo.png" alt="ERC Logo">
+    <div class="header-text">
+      <h1>Safety</h1>
+      <p>Tips • Trainings • Quick references</p>
     </div>
-
-    <nav>
-      <a href="./">Home</a>
-      <a href="safety/">Safety</a>
-      <a href="announcements/">Announcements</a>
-      <a href="newsletters/">Newsletters</a>
-    </nav>
   </div>
 </header>
+
+<nav class="site-nav" aria-label="Primary">
+  <div class="nav-inner">
+    <ul class="nav-list">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="../announcements/index.html" class="nav-link">Announcements</a></li>
+      <li><a href="../newsletters/index.html" class="nav-link">Newsletters</a></li>
+      <li><a href="./index.html" class="nav-link active" aria-current="page">Safety</a></li>
+      <li><a href="./tips.html" class="nav-link">Safety Tips</a></li>
+      <li><a href="./trainings.html" class="nav-link">Safety Trainings</a></li>
+    </ul>
+  </div>
+</nav>
 
 <main class="wrap">
 
@@ -44,13 +44,13 @@
     <div class="card">
       <h3>Safety Tips</h3>
       <p class="muted">Short reminders employees can read in under 30 seconds.</p>
-      <p><a class="btn" href="safety/tips.html">Open Safety Tips →</a></p>
+      <p><a class="btn" href="tips.html">Open Safety Tips →</a></p>
     </div>
 
     <div class="card">
       <h3>Trainings</h3>
       <p class="muted">Mini-trainings, drill readiness, and role expectations.</p>
-      <p><a class="btn" href="safety/trainings.html">Open Trainings →</a></p>
+      <p><a class="btn" href="trainings.html">Open Trainings →</a></p>
     </div>
   </section>
 
