@@ -11,24 +11,26 @@ body {
 .site-header {
   background: #fff;
   border-bottom: 1px solid #e5e7ef;
+  display: flex;
+  justify-content: center;   /* ✅ centers the entire header block */
 }
+
 .header-inner {
-  max-width: 1100px;
-  margin: 0 auto;
   padding: 18px 16px;
   display: flex;
   gap: 16px;
   align-items: center;
-
-  justify-content: center; /* ✅ centers logo + header text together */
+  justify-content: center;   /* ✅ centers logo + text together */
 }
+
 .logo {
   width: 54px;
   height: 54px;
   object-fit: contain;
 }
+
 .header-text {
-  text-align: left; /* keeps the text block left-aligned */
+  text-align: left;          /* logo + text stay together neatly */
 }
 .header-text h1 { margin: 0; font-size: 20px; }
 .header-text p { margin: 4px 0 0; color: #444; }
