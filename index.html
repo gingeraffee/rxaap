@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- HEADER WITH LOGO + TITLE -->
-    <div class="site-header">
+    <header class="site-header">
         <div class="header-inner">
             <img src="assets/logo.png" alt="Company logo" class="logo">
             <div class="header-text">
@@ -16,16 +16,16 @@
                 <p>Safety trainings • Safety policy development • Report concerns</p>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- NAVIGATION -->
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Primary">
         <div class="nav-inner">
             <ul class="nav-list">
-                <li><a href="./index.html" class="nav-link active">Home</a></li>
-                <li><a href="./newsletters/index.html" class="nav-link">Newsletters</a></li>
+                <li><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
                 <li><a href="./announcements/index.html" class="nav-link">Announcements</a></li>
-                <li><a href="./safety/index.html" class="nav-link">Safety & Tips</a></li>
+                <li><a href="./newsletters/index.html" class="nav-link">Newsletters</a></li>
+                <li><a href="./safety/index.html" class="nav-link">Safety</a></li>
             </ul>
         </div>
     </nav>
@@ -38,30 +38,32 @@
             <p>The ERC provides ongoing safety trainings and helps develop policies that keep everyone safe. Employees are encouraged to share safety concerns, hazards, near-misses, or suggestions with any ERC member.</p>
         </div>
 
-        <!-- OIC CARD -->
-        <div class="card">
-            <h2>Officer-In-Charge (OIC) Order</h2>
-            <ol class="oic">
-                <li>David Johnson</li>
-                <li>Nicole Thornton (if above is not present)</li>
-                <li>Trevor Bowen (if above are not present)</li>
-                <li>Sydney Strickland (if above are not present)</li>
-                <li>Desiree Moore (if above are not present)</li>
-                <li>Susan Smart (if above are not present)</li>
-                <li>Brandy Hooper</li>
-                <li>George Euson</li>
-            </ol>
-        </div>
+        <div class="card-row">
+            <!-- OIC CARD -->
+            <div class="card">
+                <h2>Officer-In-Charge (OIC) Order</h2>
+                <ol class="oic">
+                    <li>David Johnson</li>
+                    <li>Nicole Thornton (if above is not present)</li>
+                    <li>Trevor Bowen (if above are not present)</li>
+                    <li>Sydney Strickland (if above are not present)</li>
+                    <li>Desiree Moore (if above are not present)</li>
+                    <li>Susan Smart (if above are not present)</li>
+                    <li>Brandy Hooper</li>
+                    <li>George Euson</li>
+                </ol>
+            </div>
 
-        <!-- ZONES CARD -->
-        <div class="card">
-            <h2>Safety Zone Assignments</h2>
-            <ul class="zones">
-                <li><strong>Zone 1:</strong> Trevor Bowen</li>
-                <li><strong>Zone 2:</strong> Desiree Moore</li>
-                <li><strong>Zone 3:</strong> Sydney Strickland</li>
-                <li><strong>Zone 4:</strong> Susan Smart</li>
-            </ul>
+            <!-- ZONES CARD -->
+            <div class="card">
+                <h2>Safety Zone Assignments</h2>
+                <ul class="zones">
+                    <li><strong>Zone 1:</strong> Trevor Bowen</li>
+                    <li><strong>Zone 2:</strong> Desiree Moore</li>
+                    <li><strong>Zone 3:</strong> Sydney Strickland</li>
+                    <li><strong>Zone 4:</strong> Susan Smart</li>
+                </ul>
+            </div>
         </div>
 
         <!-- MEMBERS GRID -->

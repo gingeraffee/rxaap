@@ -3,33 +3,31 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <base href="/rxaap/">
   <title>Newsletters • ERC Safety Hub</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div class="brand-left">
-        <img class="logo" src="assets/logo.png" alt="ERC Logo">
-        <div>
-          <h1>Newsletters</h1>
-          <small>Archive of safety newsletters and bulletins</small>
-        </div>
-      </div>
-      <div class="meta">ERC Safety Hub</div>
+<header class="site-header">
+  <div class="header-inner">
+    <img class="logo" src="../assets/logo.png" alt="ERC Logo">
+    <div class="header-text">
+      <h1>Newsletters</h1>
+      <p>Archive of safety newsletters and bulletins</p>
     </div>
-
-    <nav>
-      <a href="./">Home</a>
-      <a href="safety/">Safety</a>
-      <a href="announcements/">Announcements</a>
-      <a href="newsletters/">Newsletters</a>
-    </nav>
   </div>
 </header>
+
+<nav class="site-nav" aria-label="Primary">
+  <div class="nav-inner">
+    <ul class="nav-list">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="./index.html" class="nav-link active" aria-current="page">Announcements</a></li>
+      <li><a href="../newsletters/index.html" class="nav-link">Newsletters</a></li>
+      <li><a href="../safety/index.html" class="nav-link">Safety</a></li>
+    </ul>
+  </div>
+</nav>
 
 <main class="wrap">
 
@@ -45,7 +43,7 @@
       <h3>ERC Newsletter — January 2026</h3>
       <p class="meta">PDF</p>
       <p class="muted">Monthly safety reminders, updates, and seasonal preparedness.</p>
-      <p><a class="btn" href="newsletters/files/ERC_Newsletter_2026-01.pdf">Open PDF →</a></p>
+      <p><a class="btn" href="../newsletters/files/ERC_Newsletter_2026-01.pdf">Open PDF →</a></p>
     </div>
   </section>
 
