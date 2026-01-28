@@ -144,3 +144,145 @@ body {
   margin-top: 18px;
   font-size: 13px;
 }
+
+.muted {
+  color: #5f6675;
+}
+
+.meta {
+  font-size: 12px;
+  color: #6c7484;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #1b1f2a;
+  color: #1b1f2a;
+  font-size: 14px;
+  text-decoration: none;
+  background: #fff;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: #1b1f2a;
+  color: #fff;
+  border-color: #1b1f2a;
+  outline: none;
+}
+
+.list {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.hero-card {
+  padding: 22px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #edf2ff;
+  color: #2a4aa2;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.media-card {
+  border: 1px solid #eef0f6;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-cover {
+  height: 160px;
+  background: linear-gradient(135deg, #2d3a8c, #9fb7ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.media-cover::after {
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  position: absolute;
+  inset: auto auto 12px 12px;
+}
+
+.media-cover.video {
+  background: linear-gradient(135deg, #1d1f24, #5f6b86);
+}
+
+.media-content {
+  padding: 14px 16px 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: #f3f4f8;
+  color: #2e323c;
+}
+
+.caption {
+  font-size: 14px;
+  color: #2f333d;
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
